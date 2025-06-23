@@ -1,0 +1,23 @@
+{
+  "aiProvider": "openai",
+  "model": "gpt-4o",
+  "maxTokens": 2000,
+  "temperature": 0.3,
+  "codingStandardsPath": "coding-standards.md",
+  "reviewPromptPath": "review-prompt.md",
+  "ignorePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "*.min.js",
+    "*.min.css",
+    "*.map",
+    "package-lock.json",
+    "yarn.lock",
+    "pnpm-lock.yaml"
+  ],
+  "severityThreshold": "medium",
+  "autoApprove": false,
+  "requireApprovalFor": ["error"]
+}
