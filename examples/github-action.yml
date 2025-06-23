@@ -24,7 +24,7 @@ jobs:
           node-version: '18'
           
       - name: Install AI Code Reviewer
-        run: npm install -g @your-org/ai-code-reviewer
+        run: npm install -g @eighteen-dev/ai-code-reviewer
         
       - name: Run AI Code Review
         env:

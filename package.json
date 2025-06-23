@@ -1,5 +1,5 @@
 {
-  "name": "ai-code-reviewer",
+  "name": "@eighteen-dev/ai-code-reviewer",
   "version": "1.0.0",
   "description": "AI-powered code review tool with GitHub integration",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/django18/ai-code-reviewer"
+    "url": "https://github.com/eighteen-dev/ai-code-reviewer"
   },
   "dependencies": {
     "@octokit/rest": "^20.0.2",
