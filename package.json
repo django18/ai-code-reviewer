@@ -1,5 +1,5 @@
 {
-  "name": "@eighteen-dev/ai-code-reviewer",
+  "name": "code-review-agent",
   "version": "1.0.0",
   "description": "AI-powered code review tool with GitHub integration",
   "main": "dist/index.js",

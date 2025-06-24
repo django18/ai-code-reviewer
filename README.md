@@ -15,7 +15,7 @@ An intelligent, AI-powered code review tool that integrates seamlessly with GitH
 ## 📦 Installation
 
 ```bash
-npm install -g @eighteen-dev/ai-code-reviewer
+npm install -g code-review-agent
 ```
 
 ## 🎯 Quick Start
@@ -120,7 +120,7 @@ jobs:
           node-version: '18'
           
       - name: Install AI Code Reviewer
-        run: npm install -g @eighteen-dev/ai-code-reviewer
+        run: npm install -g code-review-agent
         
       - name: Run AI Code Review
         env:
@@ -261,7 +261,7 @@ jobs:
 ## 🔧 Programmatic Usage
 
 ```typescript
-import { ReviewEngine, ConfigLoader, GitHubClient } from '@eighteen-dev/ai-code-reviewer';
+import { ReviewEngine, ConfigLoader, GitHubClient } from 'code-review-agent';
 
 // Load configuration
 const config = await ConfigLoader.load();
@@ -280,7 +280,7 @@ await github.addReviewComments('owner', 'repo', 123, 'sha', result.comments);
 Extend the tool with your own AI provider:
 
 ```typescript
-import { BaseAIProvider } from '@eighteen-dev/ai-code-reviewer';
+import { BaseAIProvider } from 'code-review-agent';
 
 class CustomProvider extends BaseAIProvider {
   name = 'Custom';
@@ -334,5 +334,5 @@ MIT
 
 ## 📞 Support
 
-- [GitHub Issues](https://github.com/eighteen-dev/ai-code-reviewer/issues)
-- [Documentation](https://github.com/eighteen-dev/ai-code-reviewer/wiki)
+- [GitHub Issues](https://github.com/avinashdangi/ai-code-reviewer/issues)
+- [Documentation](https://github.com/avinashdangi/ai-code-reviewer/wiki)
